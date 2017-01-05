@@ -1,0 +1,19 @@
+extends default-layout
+
+block append vars
+  - var navKey = 'home'
+
+block content
+  .landing-main-content.row
+
+    block left-nav
+      include partials/leftnav.pug
+
+    .landing-components.col-xs-12.col-sm-8
+      each contentItem in collections.pageitems
+        article.landing-section.box(id=contentItem.link)
+          h2.spectrum-Heading.spectrum-Heading--pagetitle= contentItem.name
+          .landing-section-description= contentItem.description
+          .landing-section-content!=  contentItem.contents
+
+          //- for pages where you want left navigation of the stuffs in the page

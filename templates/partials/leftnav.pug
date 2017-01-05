@@ -1,0 +1,6 @@
+nav.landing-nav.col-sm-3.col-sm-3
+  .box
+    each navItem in collections.pageitems
+      .row.center-xs.around-xs.start-sm
+        .landing-nav-item
+            a.landing-nav-link.box(href='#'+navItem.itemId)= navItem.name

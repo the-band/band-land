@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Aaron Brownlee
+    aaron.brownlee [email at sign] theband-inc [dot com]
+    Title: Technical Leadership
+    Github: misterbrownlee
+    Twitter: nope
+
+# TECHNOLOGY
+
+    HTML5, CSS3, Node, Sass, Metalsmith, Pug ... look in package.json :)

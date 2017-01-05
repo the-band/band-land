@@ -1,0 +1,21 @@
+doctype html
+
+block vars
+  - var relativePath = './'
+  - var bodyclass = 'landing-body'
+  - var themeColor = 'light'
+  - var navKey = 'home'
+
+html(lang='en')
+
+  include partials/head.pug
+
+  body.u-clearfix(class=`landing--${themeColor} ${bodyclass}`)
+
+    block header
+      include partials/header.pug
+
+    block hero
+      include partials/hero-home.pug
+
+    block content

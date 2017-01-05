@@ -1,0 +1,17 @@
+mixin navItem(key, linkPath)
+  - key = key || 'no key'
+  - var isCurrent = (key == navKey) ? true : false
+  - var navClass = 'sdldocs-menu-link'
+  - navClass += (isCurrent) ? ' is-selected' : ''
+  a(class=navClass, href=linkPath)= key
+
+  //- TODO: menu nav once faq and articles are in the repo
+
+.landing-menu.box
+  .row.start-xs
+    .box
+      //- +navItem('home', relativePath)
+    .box
+      //- +navItem('articles', relativePath + 'articles')
+    .box
+      //- +navItem('faq', relativePath + 'faq')
