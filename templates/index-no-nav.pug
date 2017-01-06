@@ -1,11 +1,16 @@
 extends default-layout
 
+block header
+  //- nada
+
+block hero
+  //- nada
+
 block append vars
   - var navKey = 'home'
 
 block content
   .landing-main-content.row
     .landing-components.col-xs-12.center-xs
-      article.landing-component.box
-        h2.landing-heading--secondary.
-          TODO: have actual content
+      article.landing-component.landing-main-container.box
+        img(src='resources/theband_hero.png' alt='a collective in common')

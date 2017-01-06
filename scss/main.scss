@@ -1,0 +1,12 @@
+$landing-basecolor-1: rgb(127, 127, 127);
+
+.landing-body {
+  background-color: $landing-basecolor-1;
+}
+
+.landing-main-container {
+  margin-top: 2rem;
+  img {
+    border: 3rem solid rgb(181, 181, 181);
+  }
+}
