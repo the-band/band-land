@@ -1,7 +1,5 @@
 .landing-hero-content {
-  position: absolute;
-  left: center;
-  top: 5px;
+  margin: 5px 12px;
   color: #EFEFEF;
   border: 1.6rem solid #EFEFEF;
   background-image: url('../../resources/theband_hero.png');
@@ -9,16 +7,12 @@
   background-position-x: center;
   background-size: auto;
   background-repeat: no-repeat;
-  width: 98%;
   max-width: 1000px;
   height: 500px;
 }
 
 .landing-hero-title {
   margin: 0;
-  position: absolute;
-  top: 22px;
-  left: 1rem;
   font-size: 3rem;
   text-align: left;
   text-shadow: 1px 1px 1px #CCC;
@@ -26,8 +20,7 @@
 }
 
 .landing-hero-pitch {
-  position: absolute;
-  bottom: 8px;
-  right: 1.1rem;
+  margin-top: 350px;
+  margin-right: 20px;
   text-align: right;
 }
