@@ -64,11 +64,10 @@
     "site": {
       "url": "http://theband-inc.com",
       "title": "The Band, Inc.",
-      "presentationName": "A Collective in Common",
+      "presentationName": "THE BAND",
       "description": "This is the website for The Band, Inc.",
       "pitch": [
-        "Enlist the Band",
-        "Hire The Band"
+        "A Collective in Common"
       ]
     },
     "googleAnalytics": "UA-9999999-2",

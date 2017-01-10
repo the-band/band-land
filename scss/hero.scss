@@ -1,22 +1,10 @@
-.landing-body {
-  background-color: #7f7f7f;
-}
-
-.landing-main-container {
-  margin-top: 2rem;
-}
-
-.landing-main-container img {
-  border: 3rem solid #b5b5b5;
-}
-
 .landing-hero-content {
   position: absolute;
   left: 5px;
   top: 5px;
   color: #EFEFEF;
   border: 1.6rem solid #EFEFEF;
-  background-image: url("../../resources/theband_hero.png");
+  background-image: url('../../resources/theband_hero.png');
   background-position-y: -110px;
   background-position-x: center;
   background-size: auto;
@@ -40,17 +28,4 @@
   bottom: 8px;
   right: 1.1rem;
   text-align: right;
-}
-
-.u-clearfix {
-  *zoom: 1;
-}
-
-.u-clearfix:before .u-clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.u-clearfix:after {
-  clear: both;
 }
