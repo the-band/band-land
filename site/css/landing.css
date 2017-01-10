@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'armalite-rifle';
+  src: url("../../resources/font/armalite_rifle-webfont.eot");
+  src: url("../../resources/font/armalite_rifle-webfont.eot?#iefix") format("embedded-opentype"), url("../../resources/font/armalite_rifle-webfont.woff") format("woff"), url("../../resources/font/armalite_rifle-webfont.ttf") format("truetype"), url("../../resources/font/armalite_rifle-webfont.svg#svgFontName") format("svg");
+}
+
 .landing-body {
   background-color: #7f7f7f;
+  font-family: 'armalite-rifle', serif;
 }
 
 .landing-main-container {
@@ -12,7 +19,7 @@
 
 .landing-hero-content {
   position: absolute;
-  left: 5px;
+  left: center;
   top: 5px;
   color: #EFEFEF;
   border: 1.6rem solid #EFEFEF;
@@ -31,8 +38,10 @@
   position: absolute;
   top: 22px;
   left: 1rem;
+  font-size: 3rem;
   text-align: left;
-  text-shadow: 1px 1px 1px #666;
+  text-shadow: 1px 1px 1px #CCC;
+  letter-spacing: 3px;
 }
 
 .landing-hero-pitch {

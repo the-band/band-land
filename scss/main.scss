@@ -1,7 +1,17 @@
 $landing-basecolor-1: rgb(127, 127, 127);
 
+@font-face {
+  font-family: 'armalite-rifle';
+  src: url('../../resources/font/armalite_rifle-webfont.eot');
+  src: url('../../resources/font/armalite_rifle-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../resources/font/armalite_rifle-webfont.woff') format('woff'),
+       url('../../resources/font/armalite_rifle-webfont.ttf')  format('truetype'),
+       url('../../resources/font/armalite_rifle-webfont.svg#svgFontName') format('svg');
+}
+
 .landing-body {
   background-color: $landing-basecolor-1;
+  font-family: 'armalite-rifle', serif;
 }
 
 .landing-main-container {

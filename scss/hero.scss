@@ -1,6 +1,6 @@
 .landing-hero-content {
   position: absolute;
-  left: 5px;
+  left: center;
   top: 5px;
   color: #EFEFEF;
   border: 1.6rem solid #EFEFEF;
@@ -19,8 +19,10 @@
   position: absolute;
   top: 22px;
   left: 1rem;
+  font-size: 3rem;
   text-align: left;
-  text-shadow: 1px 1px 1px #666;
+  text-shadow: 1px 1px 1px #CCC;
+  letter-spacing: 3px;
 }
 
 .landing-hero-pitch {
